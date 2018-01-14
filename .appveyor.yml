@@ -40,5 +40,5 @@ test_script:
   - C:\pypy3-v5.10.1-win32\pypy3 -c "import os; print(len(os.linesep)); print(repr(os.linesep))"
   - C:\pypy-2.6.1-win32\pypy     -c "import os; print(len(os.linesep)); print(repr(os.linesep))"
   - python -m tox
-  - C:\pypy3-v5.10.1-win32\pypy3 setup.py test -q
   - C:\pypy-2.6.1-win32\pypy setup.py test -q
+  - C:\pypy3-v5.10.1-win32\pypy3 setup.py test -q
