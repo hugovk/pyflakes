@@ -51,7 +51,7 @@ def check(codeString, filename, reporter=None):
                     text = lines[lineno - 1]
                     try:
                         text = text.decode('ascii')
-                    except UnicodeDecodeError:
+                    except AttributeError:
                         text = None
             offset -= 1
 
